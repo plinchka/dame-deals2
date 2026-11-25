@@ -25,21 +25,20 @@
 
 ```
 src/
-  main.tsx            точка входа
-  App.tsx             состояние фильтров и сборка страницы
-  api.ts              запросы к CheapShark
-  types.ts            типы Deal, Store, Filters, SortKey
-  hooks/              useDeals, useStores, useDebouncedValue
-  components/         Button, Controls, DealList, DealCard, States
-  style.css           стили (имена классов по БЭМ)
+  main.tsx          
+  App.tsx             
+  api.ts             
+  types.ts            
+  hooks/            
+  components/         
+  style.css           
 ```
 
 ## Запуск
 
 ```bash
 npm install
-npm run dev      # режим разработки, http://localhost:5173
-npm run build    # сборка в папку dist
-npm run preview  # посмотреть собранную версию локально
+npm run dev      
+npm run build    
+npm run preview 
 ```
-
